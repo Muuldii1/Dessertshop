@@ -1,29 +1,51 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desert Shop</title>
+    <link rel="stylesheet" href="C:\MLDI\sigmaboy.css">
+
 </head>
+
 <body>
-    <button id="nigga">X</button>
-    <p id="hehe">X</p>
-    <p id="hoho">O</p>
 
-    <script>
-        let hehe = 0;
-        let hoho = 0;
+    <h1>🍰 Desert Shop 🍪</h1>
+    <p>We create <span class="highlight">beautiful</span>, <span class="creative">creative</span>, and <span
+            class="healthy">healthy</span> desserts.</p>
 
-        document.getElementById("nigga").onclick = function() {
-            let button = document.getElementById("nigga");
+    <div class="section">
+        <h2>What do you want?</h2>
+        <ul>
+            <li>Cookies: <b>$0.50</b> each</li>
+            <li>Cakes and pies: <b>$5.00</b> each</li>
+            <li>Chocolate: <b>$2.00</b> each</li>
+        </ul>
+    </div>
 
-            if (button.innerHTML === "X") {
-                hehe = hehe + 1;
-                button.innerHTML = "O";
-                document.getElementById("hehe").innerHTML = hehe + " X udaa darav";
-            } else {
-                hoho = hoho + 1;
-                button.innerHTML = "X"; 
-                document.getElementById("hoho").innerHTML = hoho + " O udaa darav";
-            }
-        };
-    </script>
+    <div class="section">
+        <h2>Opening Hours ⏰</h2>
+        <p>🟢 <b>Monday to Thursday:</b> 7:45 a.m. – 9:45 p.m.</p>
+        <p>🟢 <b>Friday:</b> 7:45 a.m. – 4:30 p.m.</p>
+        <p>🟢 <b>Saturday:</b> 9:00 a.m. – 4:30 p.m.</p>
+        <p>🔴 <b>Sunday:</b> noon – 12:30 p.m.</p>
+    </div>
+
+    <div class="section">
+        <h2>Payment Methods 💳</h2>
+        <p>We accept:</p>
+        <ul>
+            <li>💵 Cash</li>
+            <li>🏧 ATM Cards</li>
+            <li>💳 Credit Cards</li>
+            <li>🌍 American Express</li>
+            <li>🌎 Discovery</li>
+        </ul>
+    </div>
+
+    <p>📍 <a href="https://www.youtube.com/watch?v=HXoahG4iqTs">Find us on Google Maps</a></p>
+
 </body>
+
 </html>
