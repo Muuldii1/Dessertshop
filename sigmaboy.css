@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    text-align: center;
+    background-color: pink;
+}
+
+.highlight {
+    color: red;
+
+}
+
+.creative {
+    color: green;
+}
+
+.healthy {
+    color: blue;
+}
+
+.emoji {
+    font-size: 20px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.payment-icons img {
+    width: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+h1 {
+    background-color: #E8AAD6;
+    border: 1px solid purple;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+h2 {
+    background-color: #E8AAD6;
+    border: 1px solid purple;
+    border-radius: 10px;
+    text-align: center
+}
+
+ul {
+    border: solid #EF4E97;
+    border-radius: 10px;
+    text-align: start;
+    list-style-position: inside;
+    margin: auto;
+    display: inline-block;
+}
+p{
+    border: solid #EF4E97;
+    text-align: start;
+    list-style-position: inside;
+    margin: auto;
+    display: inline-block;
+    
+}
+
+
