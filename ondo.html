@@ -1,29 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width,device-width=1.0">
+    <title>SIGMA</title>
 </head>
+<style>    
+.redbox{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(255, 0, 0);
+}
+
+@media only screen and (max-width: 600px) {
+    .redbox{
+      
+        background-color: rgb(83, 125, 180);
+    }
+}
+</style>
+
 <body>
-    <button id="nigga">X</button>
-    <p id="hehe">X</p>
-    <p id="hoho">O</p>
-
-    <script>
-        let hehe = 0;
-        let hoho = 0;
-
-        document.getElementById("nigga").onclick = function() {
-            let button = document.getElementById("nigga");
-
-            if (button.innerHTML === "X") {
-                hehe = hehe + 1;
-                button.innerHTML = "O";
-                document.getElementById("hehe").innerHTML = hehe + " X udaa darav";
-            } else {
-                hoho = hoho + 1;
-                button.innerHTML = "X"; 
-                document.getElementById("hoho").innerHTML = hoho + " O udaa darav";
-            }
-        };
-    </script>
+    <div class="redbox"></div>
 </body>
 </html>
